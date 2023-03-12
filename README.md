@@ -10,12 +10,14 @@ Pros of Enterprise applications:
 - Eliminate the need for two separate credentials.
 - Single Sign-On (SSO)
 
-For example, if you want to use Dropbox, which has Azure AD integration. You can use the same credentials to sign into Dropbox and Azure AD. It also has SSO, where you can authenticate with your user ID via Azure and if you want to go to Dropbox, it will direct you to Dropbox without prompting you to sing in.
+# Use Case
 
-IdP passes the SAML credentials to the service provider to allow SSO.
+- For example, if you want to use Dropbox, which has Azure AD integration. You can use the same credentials to sign into Dropbox and Azure AD. It also has SSO, where you can authenticate with your user ID via Azure and if you want to go to Dropbox, it will direct you to Dropbox without prompting you to sign in.
+
+- IdP passes the SAML credentials to the service provider to allow SSO.
 
 
-How to use an enterprise application?
+# How to use Azure Active Directory Enterprise application?
 - First, create the Enterprise application within Azure AD. It will create an application object, where you use the application object to work with the application's account. 
 
 <p align="center">
@@ -25,13 +27,13 @@ How to use an enterprise application?
 <p/>
 
 
-How do we access an application that is assigned to a user?
+# How do we access an application that is assigned to a user?
 
-- myapps.microsoft.com - is where a user will see the applications assigne to them.
+- myapps.microsoft.com - is where a user will see the applications assigned to them.
 
-How do we make an application visible to a user? 
+# How do we make an application visible to a user? 
 - We assign permissions to them via the application.
-- Navigate to the enterpriser application > go to users and groups > assign the user or group 
+- Navigate to Enterprise Application > Users and Groups > Assign  
 - Prompt the user to log back into myapps.microsoft.com and they will have access and see the applications that they have access to.
 
 
